@@ -10,7 +10,7 @@ import numpy as np
 
 def LFM_grad_desc(R, K, max_iter, alpha=1e-4, lamda=1e-4):
     """
-    实现矩阵缺失元素补全！
+    实现矩阵缺失元素补全使用梯度下降法！
     """
     # 基本维度参数定义
     M = len(R)
