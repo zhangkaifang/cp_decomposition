@@ -20,6 +20,9 @@ def mat2ten(mat1, mat2, mat3):
 
 
 def alter_optimization(X, r, nmax=50000):
+    """
+    使用交替最小二乘法对张量的CP分解填补空白数据，张量的CP分解！
+    """
     n1, n2, n3 = X.shape
     A = np.random.normal(0, 1, (n1, r))  # shape: (4, 10)
     B = np.random.normal(0, 1, (n2, r))  # shape: (7, 10)
