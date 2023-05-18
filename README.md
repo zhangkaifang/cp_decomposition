@@ -6,3 +6,5 @@ This project implements matrix missing element completion and tensor missing ele
 ## Our CSDN blog posts (in Chinese)
 - [矩阵论笔记：张量CP分解的详细数学推导以及Python实现！](https://zhangkaifang.blog.csdn.net/article/details/118255259)
 
+
+- 参考：https://github.com/xinychen/tensor-learning
